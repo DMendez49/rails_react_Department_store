@@ -1,8 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Header, } from "semantic-ui-react";
 
 const About = () => (
-  <Header as="h1">About</Header>
+  <Fragment>
+    <Header as="h1">About Page</Header>
+  </Fragment>
 );
 
 export default About;

@@ -4,7 +4,6 @@ import { Link, } from "react-router-dom";
 import { Button, Card, Header, Icon, } from "semantic-ui-react";
 
 
-
 class Items extends React.Component {
   state = { items: [], };
 
