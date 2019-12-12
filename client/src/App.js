@@ -11,17 +11,22 @@ import { Container, } from "semantic-ui-react";
 
 const App = () => (
   <>
+    <div class="backy">
     <Navbar />
-    <Container>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/Items" component={Items} />
-        <Route exact path="/Items/new" component={ItemsForm} />
-        <Route exact path="/items/:id" component={ItemsView} />
-        <Route component={NoMatch} />
-      </Switch>
-    </Container>
+    <div class="Container">
+      <Container>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/Items" component={Items} />
+          <Route exact path="/Items/new" component={ItemsForm} />
+          <Route exact path="/Item/:id" component={ItemsView} />
+          <Route exact path="/Items/:id" component={ItemsForm}/>
+          <Route component={NoMatch} />
+        </Switch>
+      </Container>
+        </div>
+    </div>
   </>
 );
 

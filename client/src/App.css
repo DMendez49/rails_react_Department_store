@@ -39,8 +39,31 @@
   }
 }
 
-.Navbar {
-  background: black;
-  color: whitesmoke;
-  font-family: monospace;
+.backy{
+  background-image: url(https://www.newrafael.com/wp-content/uploads/2011/05/rafael-rozendaal-basic-red-blue.gif);
+  height: 500vh;
 }
+
+.seg{
+  background: black;
+  justify-content: space;
+}
+
+.Cardy{
+  width: 300px;
+}
+
+.Container{
+width: 1675px;
+};
+
+.body{
+ font-family: monospace;
+ font-size: 30px;
+ border-style: solid;
+ border-width: 1px;
+ background-color: blue;
+}
+
+
+

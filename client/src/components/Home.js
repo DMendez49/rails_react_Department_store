@@ -3,10 +3,14 @@ import { Header, } from "semantic-ui-react";
 
 const Home = () => (
   <Fragment>
-    <Header as="h1">Welcome Page</Header>
-    <body>
-
-    </body>
+    <div>
+      <Header as="h1">Welcome Page</Header>
+          <div class="body">
+            <body>
+              <p>WELCOME PAGE</p>
+            </body>
+          </div>
+      </div>
   </Fragment>
 );
 
